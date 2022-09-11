@@ -1,0 +1,97 @@
+body, body {
+    height: 100%;
+    margin: 0;
+}
+
+.movingBackground {
+    background-size: 300% 300%;
+    background-color: gray;
+    animation: colorFade 10s ease infinite alternate;
+}
+
+@keyframes colorFade {
+    0%{background-color:#FFDFCC}
+    25%{background-color:#FFF3DB}
+    50%{background-color: #CBEBC3}
+    75%{background-color: #ADD7DB}
+    100%{background-color: #898FAD}
+}
+
+
+.separator {
+    background: rgba(0, 0, 0, 1); 
+    height: 2px;
+    margin: 5%;
+}
+
+.pictures {
+    background: url(file:///C:/Users/talsp/Downloads/lp-image.jpg) no-repeat;
+    background-position: 75%;
+    background-size:  25% auto;
+}
+
+.text {
+    width: 30%;
+    margin-left: 15%;
+    font-size: 15px;
+    padding-bottom: 2px;
+    font: Arial;
+    text-align: left;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.contactText {
+    text-align: center;
+    font: Arial;
+}
+
+.bottom {
+    min-height:100%;
+    overflow: hidden;
+    background: darkgray bottom left repeat-x;
+}
+
+h1 {
+    margin-top: 15%;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 17px;
+    margin-top: 13%;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 10px;
+    overflow: hidden;
+}
+  
+li {
+    float: right;
+    border-bottom: 2px solid black;
+    line-height: 15px;
+}
+  
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    color: black;
+}
+  
+li a:hover {
+    font-weight: bold;
+    font-size: 20px;
+}
