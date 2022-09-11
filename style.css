@@ -24,10 +24,22 @@ body, body {
     margin: 5%;
 }
 
-.pictures {
-    background: url(file:///C:/Users/talsp/Downloads/lp-image.jpg) no-repeat;
+.personalPicture {
+    background: url(file:///C:/Users/talsp/Desktop/VS%20Code/Projects/Personal%20Picture.jpeg) no-repeat;
     background-position: 75%;
     background-size:  25% auto;
+}
+
+.asuPicture {
+    background: url(https://www.logolynx.com/images/logolynx/f1/f126d36b7adeb1fa0522edfc9c1f3f35.png) no-repeat;
+    background-position: 75%;
+    background-size:  25% auto;
+}
+
+.extraMilePicture {
+    background: url(https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/G5OWOIHHU5GLXOROV2WCXRYNAM.jpeg&w=916) no-repeat;
+    background-position: 75%;
+    background-size: 25% auto;
 }
 
 .text {
